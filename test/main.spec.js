@@ -17,6 +17,7 @@ const url = 'http://localhost:8888';
 
 
 describe('express', () => {
+  this.timeout(6500);
   beforeEach(() => {
     nightmare = new Nightmare();
   });
